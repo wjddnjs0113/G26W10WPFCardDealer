@@ -15,10 +15,23 @@
                 Padding="8"
                 Margin="16" 
                 Click="OnDeal"/>
-            <Image 
-                x:Name="Card1" 
-                Height="320"
-                Source="Images/10_of_clubs.png"/>
+            <UniformGrid Rows="1">
+                <Image x:Name="Card1"
+                       Stretch="None"
+                       Source="Images/black_joker.png"/>
+                <Image x:Name="Card2"
+                       Stretch="None"
+                       Source="Images/black_joker.png"/>
+                <Image x:Name="Card3"
+                       Stretch="None"
+                       Source="Images/black_joker.png"/>
+                <Image x:Name="Card4"
+                       Stretch="None"
+                       Source="Images/black_joker.png"/>
+                <Image x:Name="Card5"
+                        Stretch="None"
+                        Source="Images/black_joker.png"/>
+            </UniformGrid>
         </DockPanel>
     </Border>
 </Window>
